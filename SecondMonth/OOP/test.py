@@ -1,10 +1,15 @@
-b = 1
-c = 0
-v = int(input('Сколько цифр: '))
-while b <= v:
-    n = list(input(f'Цифра под номером {b}:'))
-    b += 1
-    c += 1
-print(f'Минимальное число:{min(n)}')
+# a = 'a_a'
+# a = a[0] + a[1:].title()
+# print(a)
+# (123) 456-7890
+# a = [1, 3, 4, 3,5 ,4, 6,5, 7,7, 7]
+# a = str(a)
+# print(a)
 
-# check out babe
+def dna_to_rna(dna):
+    for i in dna:
+        dna = i.replace('T', 'U')
+    return dna
+
+
+print(dna_to_rna('TTTT'))
