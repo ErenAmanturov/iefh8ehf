@@ -15,5 +15,4 @@ class Car:
         return f'Engine on {self.title} stopped. Model: {self.model}.'
 
     def car_info(self):
-        return f'Title:{self.title}\nModel:{self.model}\nWeight:{self.weight}\nHP:{self.hp}\nNM:{self.nm}\nMax Speed:\
-        {self.max_speed}\nColor:{self.color}'
+        return f'{self.title},{self.model}, {self.weight},{self.hp}, {self.nm}, {self.max_speed}, {self.color}'
