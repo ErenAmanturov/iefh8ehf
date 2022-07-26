@@ -12,6 +12,6 @@
 #
 #
 # print(dna_to_rna('TTTT'))
-x=int(input())
-for i in range(x):
-    print('%s%s' % (' ' * (x-i-1), '*' * (i*2+1)))
+# x = int(input())
+# for i in range(x):
+#     print('%s%s' % (' ' * (x-i-1), '*' * (i*2+1)))
