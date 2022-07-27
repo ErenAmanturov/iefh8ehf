@@ -19,10 +19,10 @@ nested_arrays = Arrays()
 
 class Solution:
 
-    def get_num(self, arrays: list) -> int:
-        if isinstance(arrays[0], int):
-            return arrays[0]
-        return self.get_num(arrays[0])
+    def get_num(self, arrays):
+        if type(arrays) == int:
+            print(arrays)
+        self.get_num(arrays[0])
 
 
-print(Solution().get_num(nested_arrays.arrays))
+Solution().get_num(nested_arrays.arrays)

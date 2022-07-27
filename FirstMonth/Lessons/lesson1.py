@@ -12,15 +12,15 @@ height = 1.85
 #var!
 
 
-print ( type(name))
-print (type(age))
+print(type(name))
+print(type(age))
 print(type(height))
 
 print('Hello World')
 
 print(name, surname)
-print(name + '' , surname)
-print('{} {})'.format(name,surname) )
+print(name + '', surname)
+print('{} {})'.format(name,surname))
 print(f'{name.title()} {surname}')
 print(surname.capitalize(), name.title())
 # capitilize - только первая буква  заглавная title -  каждое слово заглавная
@@ -35,12 +35,9 @@ print(a - b)
 print(a * b)
 print(a / b)
 
-print( a // b)
+print(a // b)
 print(a ** b)
 
 
 
 #степень - ** не float - // при а и b
-
-
-
