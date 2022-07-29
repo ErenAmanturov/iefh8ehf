@@ -20,9 +20,7 @@ while True:
         else:
             print('You have exceeded limits of calculator!')
     except ZeroDivisionError:
-        print('You cannot divide by 0')
-    except ValueError:
-        print('Only int')
+        print('You cannot divide to 0')
 
 
 

@@ -1,9 +1,9 @@
 # (list, tuple) Списки, кортежи
 
 students = [1, 3, 4, 5, 12, 22, 13, 8, 9, 21, 18, 23, 2]
-students = list(students)
-print(students)
-
+students1= tuple(students)
+print(students1)
+print(students[5])
 # data = list()
 #
 # while len(students) != 0:

@@ -15,6 +15,7 @@ while True:
             else:
                 sogl += 1
     if word == 'exit':
+        print('Программа завершена')
         break
     print(f'Слово: {word2}')
     print(f'Количество букв: {kol}')

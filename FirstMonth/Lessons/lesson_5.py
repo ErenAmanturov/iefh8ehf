@@ -1,11 +1,16 @@
 # dictionary, set (dict, set)
 # {key: value}
 
+# a = {
+#      'Dog': 'sharik',
+#      'Fish': 'Phorel'
+# }
 
-
+for k, v in a.items():
+     print(f'{k} - {v}')
 
 # students = [11, 21, 12, 3, 8, 13, 20, 5, 23]
-# students1 = [11, 21, 12, 3, 8, 13, 20, 5, 23]
+# students1 = [11, 21, 12, 3, 8, 13, 2, (0, 5, 23)]
 # result = {}
 # while len(students) != 0:
 #     print('задают вопрос', students1)
@@ -20,18 +25,19 @@
 #
 # for name, rate in result.items():
 #     print(f'{name}: {rate}')
+#
+# numbers = (1, 2, 3, 4, 5)
+# words = ('one', 'two', 'three', 'four', 'five')
 
-numbers = (1, 2, 3, 4, 5)
-words = ('one', 'two', 'three', 'four', 'five')
+# dictionary = {}
+# c = 0
+# while len(dictionary) != len(numbers):
+#      dictionary[numbers[c]] = words[c]
+#      c += 1
+# print(dictionary)
 
-dictionary = {}
-c = 0
-while len(dictionary) != len(numbers):
-     dictionary[numbers[c]] = words[c]
-     c += 1
-print(dictionary)
-
-
+a = {1, 1,  2, 2,  3, 4, 5, 6, 7, 'Geek', 'Geek'}
+print(a)
 
 # plov = {'рис', "мясо", "морковь"}
 # beshbarmak = {'мясо', "тесто", "лук"}

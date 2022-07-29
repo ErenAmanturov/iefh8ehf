@@ -9,7 +9,7 @@ height = 1.85
 
 #Как нельзя
 #1var
-#var!
+#
 
 
 print(type(name))

@@ -1,7 +1,12 @@
 while True:
       date = input('Введите дату рождения: ')
+
+      # day = int(input('Введите дату рождения: '))
+      # month = int(input('Введите дату рождения: '))
       month = int(date[3:5])
       day = int(date[0:2])
+      print(day)
+      print(month)
       if day >= 21 and day <= 31 and month == 3 or month == 4 and day >= 1 and day <= 1:
 
           print('Овен')
@@ -32,7 +37,7 @@ while True:
 
       elif (day >= 24 and day <= 31 and month == 10) or(month == 11 and day >= 1 and day <= 22):
 
-          print('Скорпион')``
+          print('Скорпион')
 
       elif (day >= 23 and day <= 30 and month == 11) or(month == 12 and day >= 1 and day <= 21):
 
